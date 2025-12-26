@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-green {
+    background-color: oklch(0.33 0.05 169);
+  }
+  .bg-brown {
+    background-color: oklch(0.4 0.09 57);
+  }
+  .bg-sand {
+    background-color: oklch(0.67 0.09 72);
+  }
+  .bg-cream {
+    background-color: oklch(0.95 0.01 90);
+  }
+
+  .text-green {
+    color: oklch(0.33 0.05 169);
+  }
+  .text-brown {
+    color: oklch(0.4 0.09 57);
+  }
+  .text-sand {
+    color: oklch(0.67 0.09 72);
+  }
+  .text-cream {
+    color: oklch(0.95 0.01 90);
+  }
+
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@layer base {
+  .font-open-sans {
+    font-family: "Open Sans", sans-serif;
+  }
+  .font-ribeye {
+    font-family: "Ribeye", serif;
+  }
+  .font-tinos {
+    font-family: "Tinos", serif;
+  }
+  .font-young-serif {
+    font-family: "Young Serif", serif;
+  }
+}
